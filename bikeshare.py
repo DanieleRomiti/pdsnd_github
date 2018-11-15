@@ -192,6 +192,14 @@ def user_stats(df):
     print('-'*40)
 
 def display_data(df):
+     """
+    Asks user if he wants to see raw data.
+    
+    Args:
+        df - Pandas DataFrame containing city data filtered by month and day
+    Returns:
+        df - Pandas DataFrame containing city data filtered by month and day printed by 5 raws and 5 raws
+    """
     start_row = 0
     end_row = 5
     while True:
